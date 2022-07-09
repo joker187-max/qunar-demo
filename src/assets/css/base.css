@@ -1,0 +1,47 @@
+@import "./normalize.css";
+
+/*:root -> 获取根元素html*/
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+html {
+  overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+

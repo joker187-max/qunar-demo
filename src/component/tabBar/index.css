@@ -1,0 +1,18 @@
+.tab {
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f8f8;
+  border-top: 1px solid #f1f1f1;
+  transition: all 0.5s;
+}
+
+.tab-hidden {
+  left: 0;
+  right: 0;
+  bottom: -7vh;
+}

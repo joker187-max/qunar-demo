@@ -1,0 +1,80 @@
+.list-item {
+  display: flex;
+  height: 12vh;
+  border-bottom: 1px #e1dfdf solid;
+  background-color: #fff;
+}
+
+.list-item:nth-last-child(2) {
+  border-bottom: none;
+}
+
+.list-item-left {
+  flex: 7;
+  display: flex;
+  padding: 5px 15px;
+  flex-direction: column;
+}
+
+.list-item-left .time {
+  flex: 1;
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.list-item-left .address {
+  font-size: 10px;
+  color: #bbbbbb;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item-left .address img {
+  display: block;
+  height: 5px;
+  width: 80px;
+}
+
+.list-item-left .plane-type {
+  font-size: 10px;
+  color: #bbbbbb;
+  flex: 1;
+}
+
+.list-item-right {
+  padding: 5px 15px;
+  flex: 3;
+}
+
+.list-item-right .price {
+  display: flex;
+  justify-content: flex-end;
+  color: #ff980f;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.list-item-right .discount {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: #bbbbbb;
+  margin-bottom: 3px;
+}
+
+.list-item-right .is-continue {
+  font-size: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-item-right .is-continue span {
+  background-color: #ff980f;
+  border-radius: 2px;
+}
